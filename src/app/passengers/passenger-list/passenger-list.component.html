@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let passenger of passengers | async">
+    <passenger-details [passenger]="passenger"></passenger-details>
+    <span class="status" [class.checked]="passenger.checkedIn"> </span><a [routerLink]="['/passengers', passenger.id]">{{passenger?.name}}</a>
+ </li>
+</ul>
+<!-- <pre>{{ passengers | json }}</pre> -->                                                                                                    

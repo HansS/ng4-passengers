@@ -1,0 +1,10 @@
+{
+  "passengers": [
+    {"id":1 ,"name":"Mary", "checkedIn": false},
+    {"id":2 ,"name":"Joe", "checkedIn": true},
+    {"id":3 ,"name":"Jack", "checkedIn": false},
+    {"id":4 ,"name":"Lucy", "checkedIn": true},
+    {"id":5 ,"name":"Celine", "checkedIn": false},
+    {"id":6 ,"name":"John", "checkedIn": true}
+  ]
+}
